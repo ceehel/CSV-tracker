@@ -18,6 +18,6 @@ import pandas
 # - update a task (link to another, make independent, etc)
 # - delete a task
 
-df = pandas.read_csv("/home/cyril/Documents/CSV_link/test_file.csv")
+df = pandas.read_csv("/home/cyril/Documents/CSV_link/test_file.csv", header=1)
 
 print(df)
