@@ -35,7 +35,7 @@ def define_headers():
     validation = input()
 
     if validation == "y":
-        return headers
+        return list(headers.values())
     else:
         pass
 
@@ -48,3 +48,4 @@ class Table:
             writer = csv.writer(
                 file
             )  # generating the csv file which will host the table
+            writer.writerow(self.headers)
