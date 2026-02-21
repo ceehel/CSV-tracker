@@ -35,6 +35,9 @@ def define_headers():
     validation = input()
 
     if validation == "y":
+        headers[i + 1] = "task_ID"
+        headers[i + 2] = "nesting"
+        headers[i + 3] = "parent_ID"
         return list(headers.values())
     else:
         pass
