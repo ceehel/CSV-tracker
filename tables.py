@@ -1,6 +1,10 @@
+import csv
+
+
 def define_name():
     print("Please enter the name of the table you want to create")
-    name = input()
+    name = input() + ".csv"
+    print(f"the name of the file will be : {name}\n")
     return name
 
 
@@ -40,3 +44,7 @@ class Table:
     def __init__(self, table_name, headers):
         self.table_name = table_name
         self.headers = headers
+        with open(self.table_name, mode="w", newline="") as file:
+            writer = csv.writer(
+                file
+            )  # generating the csv file which will host the table
