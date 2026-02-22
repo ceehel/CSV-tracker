@@ -51,8 +51,8 @@ def table_selector():
     pass
 
 
+# present user with options on table management
 def open_table(table_name):
-    # create a function loading the table as an object to prepare for modification and displaying the appropriate menu
     table_open_menu()
     choice = input()
 
