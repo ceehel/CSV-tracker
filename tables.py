@@ -1,4 +1,5 @@
 import csv
+import os
 
 from menus import new_table_menu, table_open_menu
 
@@ -31,7 +32,7 @@ def define_headers():
 
     while True:
         choice = input()
-        if choice.lower == "done":
+        if choice.lower() == "done":
             break
         else:
             headers[i] = choice
@@ -41,7 +42,7 @@ def define_headers():
     i = 0
     for i in range(0, len(headers)):
         print(f"Header {i + 1} is {headers[i]}")
-    print("is it ok (y/n) ?")
+    print("Please confirm (y/n) ?")
 
     validation = input()
 
@@ -61,6 +62,9 @@ def define_headers():
 
 def table_selector():
     # create a function that allows to navigate the computer and select a CSV file
+    current_dir = os.getcwd()
+    for file in os.walk(current_dir):
+        print(file)
     pass
 
 

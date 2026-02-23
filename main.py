@@ -19,4 +19,4 @@ while True:
             print("\nGood bye !")
             sys.exit()
         case _:
-            print("Please enter a valid choice")
+            print("\nPlease enter a valid choice")
