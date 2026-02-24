@@ -1,7 +1,7 @@
 import csv
 import os
 
-from menus import new_table_menu, table_open_menu
+from menus import new_table_menu, table_open_menu, task_menu
 
 
 def define_name():
@@ -88,7 +88,9 @@ def open_table(table_name):
 
     match choice:
         case "1":
-            print("update table")
+            task_menu(table_name)
+            choice = input()
+            return choice
         case "2":
             print("delete table")
         case "3":
