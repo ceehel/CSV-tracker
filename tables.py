@@ -64,7 +64,7 @@ def table_selector():
     # create a function that allows to navigate the computer and select a CSV file
     current_dir = os.getcwd()
     for file in os.walk(current_dir):
-        print(file)
+        print(file[2])
     pass
 
 
