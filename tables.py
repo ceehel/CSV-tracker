@@ -63,9 +63,22 @@ def define_headers():
 def table_selector():
     # create a function that allows to navigate the computer and select a CSV file
     current_dir = os.getcwd()
-    for file in os.walk(current_dir):
-        print(file[2])
-    pass
+    files = os.walk(current_dir)
+    filenames = []
+    for file in files:
+        filenames.append(file)
+    correct_files = filenames[0]
+    correct_files = correct_files[2]
+    filenames = []
+    for file in correct_files:
+        if file.endswith(".csv"):
+            filenames.append(file)
+    print("\nAvailable CSV files are :")
+    for file in filenames:
+        print(file)
+    print("\nPlease select a table to load")
+    table_choice = input()
+    return table_choice
 
 
 # present user with options on table management
