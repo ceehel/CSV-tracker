@@ -78,6 +78,9 @@ def table_selector():
         print(file)
     print("\nPlease select a table to load")
     table_choice = input()
+    while table_choice not in filenames:
+        print("Please select an available table")
+        table_choice = input()
     return table_choice
 
 
