@@ -28,7 +28,7 @@ def define_headers():
     print("\nEnter 'Done' to end this phase.")
 
     i = 0
-    choice = 0
+    choice = ""
 
     while True:
         choice = input()
