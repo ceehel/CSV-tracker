@@ -31,3 +31,5 @@ These headers, or columns, can be re-ordered if need be.
 - Once the project runs on Python terminal, create a proper TUI
   - look into customisation possibilities
 - Create a way to consult the status via a web browser
+- See if the two points above could be handled via [Textual](https://github.com/Textualize/textual)
+- Investigate support for sub-tables
