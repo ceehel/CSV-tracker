@@ -27,7 +27,7 @@ def define_headers():
     )
     print("\nEnter 'Done' to end this phase.")
 
-    i = 0
+    i = 4
     choice = ""
 
     while True:
@@ -48,10 +48,10 @@ def define_headers():
 
     match validation:
         case "y":
-            headers[i + 1] = "Task_ID"
-            headers[i + 2] = "Nesting"
-            headers[i + 3] = "Parent_ID"
-            headers[i + 4] = "Progress"
+            headers[0] = "Task_ID"
+            headers[1] = "Nesting"
+            headers[2] = "Parent_ID"
+            headers[3] = "Progress"
             return list(headers.values())
         case "n":
             headers = {}

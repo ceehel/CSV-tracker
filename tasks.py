@@ -7,3 +7,9 @@ class Task:
 
     def line_ID(self):
         return uuid.uuid4()
+
+    def task_update(self, line_ID, header, value):
+        pass
+
+    def task_delete(self, line_ID):
+        pass
