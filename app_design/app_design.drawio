@@ -5,22 +5,22 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="U-qfKS01e-gvZzGap5uB-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="720" width="960" x="-40" y="40" as="geometry" />
+          <mxGeometry height="740" width="960" x="-40" y="30" as="geometry" />
         </mxCell>
         <mxCell id="U-qfKS01e-gvZzGap5uB-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="" vertex="1">
-          <mxGeometry height="40" width="960" x="-40" y="40" as="geometry" />
+          <mxGeometry height="40" width="960" x="-40" y="30" as="geometry" />
         </mxCell>
         <mxCell id="U-qfKS01e-gvZzGap5uB-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;CONTROLS (Vim motions + menu call)&lt;/b&gt;" vertex="1">
-          <mxGeometry height="40" width="960" x="-40" y="720" as="geometry" />
+          <mxGeometry height="40" width="960" x="-40" y="730" as="geometry" />
         </mxCell>
         <mxCell id="U-qfKS01e-gvZzGap5uB-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Table name" vertex="1">
-          <mxGeometry height="30" width="90" x="395" y="45" as="geometry" />
+          <mxGeometry height="30" width="90" x="395" y="35" as="geometry" />
         </mxCell>
         <mxCell id="U-qfKS01e-gvZzGap5uB-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Stats" vertex="1">
-          <mxGeometry height="30" width="50" x="870" y="45" as="geometry" />
+          <mxGeometry height="30" width="50" x="870" y="35" as="geometry" />
         </mxCell>
         <mxCell id="U-qfKS01e-gvZzGap5uB-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Logo / app name" vertex="1">
-          <mxGeometry height="30" width="120" x="-40" y="45" as="geometry" />
+          <mxGeometry height="30" width="120" x="-40" y="35" as="geometry" />
         </mxCell>
         <mxCell id="U-qfKS01e-gvZzGap5uB-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Table headers - &lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;DOCKED&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="900" x="10" y="90" as="geometry" />
@@ -28,7 +28,10 @@
         <mxCell id="U-qfKS01e-gvZzGap5uB-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;" value="Indices / line numbers - &lt;b&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;DOCKED&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="580" width="30" x="-30" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="U-qfKS01e-gvZzGap5uB-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;align=center;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;ALL TASKS ARE WIDGETS TO ACCOMODATE SCROLLING&lt;/font&gt;&lt;/b&gt;" vertex="1">
+        <mxCell id="KF-QBV7e1-qn7QUq555b-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="640" width="980" x="-50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U-qfKS01e-gvZzGap5uB-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;align=center;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;ALL TASKS ARE WIDGETS TO ACCOMODATE SCROLLING&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="580" width="900" x="10" y="130" as="geometry" />
         </mxCell>
         <mxCell id="U-qfKS01e-gvZzGap5uB-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Level 0 task" vertex="1">
@@ -66,6 +69,9 @@
         </mxCell>
         <mxCell id="U-qfKS01e-gvZzGap5uB-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Level 1 task" vertex="1">
           <mxGeometry height="30" width="850" x="50" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="KF-QBV7e1-qn7QUq555b-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;BOX&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="920" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
