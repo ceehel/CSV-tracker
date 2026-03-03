@@ -23,7 +23,9 @@ def define_headers():
     print("'Nesting' - records the sub-level each task is located at")
     print("'Parent_ID' - hold the unique ID of the parent task")
     print(
-        "'Progress' - holds the percentage of progress for each task. This is set manually for or calculated automatically if sub-tasks are linked"
+        """'Progress' - holds the percentage of progress for each task.
+        This is set manually for or calculated automatically
+        if sub-tasks are linked"""
     )
     print("\nEnter 'Done' to end this phase.")
 
@@ -38,8 +40,9 @@ def define_headers():
             headers[i] = choice
             i += 1
 
-    print("the column headers you defined are :")
     i = 0
+    print("the column headers you defined are :")
+
     for i in range(0, len(headers)):
         print(f"Header {i + 1} is {headers[i]}")
     print("Please confirm (y/n) ?")
