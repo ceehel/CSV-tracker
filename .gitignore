@@ -1,4 +1,4 @@
 notes-layout.md
 __pycache__*
 ./resources/*
-./app_design/'.$app_design.drawio.bkp'
+/app_design/.$app_design.drawio.bkp
