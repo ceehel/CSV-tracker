@@ -1,5 +1,6 @@
+from textual import on
 from textual.app import App, ComposeResult
-from textual.widgets import Header, Footer, OptionList, Static
+from textual.widgets import Header, Footer, Label
 from bindings import BINDINGS_LIST
 from mmenu import MAIN_MENU
 
@@ -16,6 +17,12 @@ class Tracker(App):
         yield Header(name="Tracker", icon="T")
         yield Footer()
         yield MAIN_MENU
+
+    @on(MAIN_MENU.OptionSelected)
+    def mmenu_input(self):
+        input = MAIN_MENU.OptionSelected.index()
+        choice = input.value
+        self.mount(Label(choice))
 
     def action_toggle_dark(self) -> None:
         """An action to toggle dark mode."""
