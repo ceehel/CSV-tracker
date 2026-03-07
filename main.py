@@ -1,6 +1,6 @@
 from textual import on
 from textual.app import App, ComposeResult
-from textual.widgets import Header, Footer, Label
+from textual.widgets import Header, Footer, Label, OptionList
 from bindings import BINDINGS_LIST
 from mmenu import MAIN_MENU
 
@@ -13,16 +13,23 @@ class Tracker(App):
 
     def compose(self) -> ComposeResult:
         """Initiate the main frame in which the interface will appear.
-        Display the mainm menu"""
+        Display the main menu"""
         yield Header(name="Tracker", icon="T")
         yield Footer()
         yield MAIN_MENU
 
-    @on(MAIN_MENU.OptionSelected)
-    def mmenu_input(self):
-        input = MAIN_MENU.OptionSelected.index()
-        choice = input.value
-        self.mount(Label(choice))
+    @on(MAIN_MENU.OptionSelected, "#main_menu")
+    def mmenu_input(self, event: OptionList.OptionSelected) -> None:
+        choice = event.option_index
+        match choice:
+            case 0:
+                pass
+            case 1:
+                pass
+            case 2:
+                pass
+            case _:
+                self.mount(Label("Please select a valid option"))
 
     def action_toggle_dark(self) -> None:
         """An action to toggle dark mode."""
